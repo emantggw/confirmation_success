@@ -15,46 +15,48 @@ The Flutter library aim to provide an interactive and visually appealing way to 
 
 ## Screenshots
 
-<img src="https://github.com/emantggw/animated_react_button/raw/main/assets/screenshots/confirm_succes_with_yellow.gif" />
+<img src="https://github.com/emantggw/confirmation_success/raw/main/assets/screenshots/confirm_succes_with_yellow.gif" />
 
-<img src="https://github.com/emantggw/animated_react_button/raw/main/assets/screenshots/confirm_success_green.gif" />
+<img src="https://github.com/emantggw/confirmation_success/raw/main/assets/screenshots/confirm_success_green.gif" />
 
 ## Features
 
-Reacting the after task/order complete with customized message widgets.
+Reacting after the task/order complete with customized message widgets.
 
 ## Getting started
 
 ## Usage
 
-[Example](https://github.com/emantggw/animated_react_button/blob/master/example/example.dart)
+[Example](https://github.com/emantggw/confirmation_success/blob/master/example/example.dart)
 To use this package :
 
-- add the dependency to your [pubspec.yaml](https://github.com/emantggw/animated_react_button/blob/master/pubspec.yaml) file.
+- add the dependency to your [pubspec.yaml](https://github.com/emantggw/confirmation_success/blob/master/pubspec.yaml) file.
 
 ```yaml
 dependencies:
   flutter:
     sdk: flutter
-  animated_react_button:
+  confirmation_success:
 ```
 
 ### How to use
 
 ```dart
-Container(
-    child: AnimatedReactButton(
-        defaultColor: Colors.grey
-        reactColor: Colors.red,
-        onPressed: ()async{
-            //Simulated api/io waiting calls
-            await Future.delayed(Duration(seconds:1));
+ ConfirmationSuccess(
+  reactColor: Colors.green,
+  maxBubbleRadius: 8,
+  child: Text("VOILA!",
+    style: TextStyle(
+      fontSize: 25,
+      letterSpacing: 1,
+      color: black,
+      fontWeight: FontWeight.bold)))
 }))
 ```
 
 # License
 
-Copyright (c) 2022 Amanuel Tito
+Copyright (c) 2023 Amanuel Tito
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,5 +1,5 @@
 name: confirmation_success
-description: A new Flutter package project.
+description: The Flutter library aim to provide an interactive and visually appealing way to indicate to users that their order/task has been confirmed.
 version: 0.0.1
 homepage: https://github.com/emantggw/confirmation_success
 
