@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:confirmation_success/confirmation_success.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class ParkingConfirmedScreen extends StatefulWidget {
   @override
@@ -60,8 +59,7 @@ class _ParkingConfirmedScreenState extends State<ParkingConfirmedScreen> {
               onPressed: navigateToHome,
               label: Text(
                 "OKAY",
-                style: GoogleFonts.roboto(
-                    fontSize: 16, letterSpacing: 1, color: yellow),
+                style: TextStyle(color: yellow, fontSize: 16),
               )),
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
@@ -93,12 +91,8 @@ class _ParkingConfirmedScreenState extends State<ParkingConfirmedScreen> {
                       bubbleColors: [yellow],
                       numofBubbles: 35,
                       maxBubbleRadius: 8,
-                      child: Text("VOILA!",
-                          style: GoogleFonts.roboto(
-                              fontSize: 25,
-                              letterSpacing: 1,
-                              color: black,
-                              fontWeight: FontWeight.bold))),
+                      child: const Text("VOILA!",
+                          style: TextStyle(color: Colors.black, fontSize: 18))),
                   const SizedBox(
                     height: 40,
                   ),
@@ -113,9 +107,9 @@ class _ParkingConfirmedScreenState extends State<ParkingConfirmedScreen> {
                         padding: const EdgeInsets.only(top: 40),
                         child: Text(
                           "We've recived your order!",
-                          style: GoogleFonts.roboto(
-                            fontSize: 18,
+                          style: TextStyle(
                             color: white,
+                            fontSize: 16,
                           ),
                         ),
                       ),
