@@ -11,13 +11,13 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-The Flutter library aim to provide an interactive and visually appealing way to indicate to users that their order/task has been confirmed. The library can be customized to fit the look and feel of your product or service. The library also provides users with the ability to change color, bubbles radius and size control. 
+The Flutter library aim to provide an interactive and visually appealing way to indicate to users that their order/task has been confirmed. The library can be customized to fit the look and feel of your product or service. The library also provides users with the ability to change color, bubbles radius and size control.
 
 ## Screenshots
 
-<img src="https://github.com/emantggw/animated_react_button/raw/main/assets/screenshots/favorite_heart.gif" />
+<img src="https://github.com/emantggw/animated_react_button/raw/main/assets/screenshots/confirm_succes_with_yellow.gif" />
 
-<img src="https://github.com/emantggw/animated_react_button/raw/main/assets/screenshots/favorite_heart_real_example.gif" />
+<img src="https://github.com/emantggw/animated_react_button/raw/main/assets/screenshots/confirm_success_green.gif" />
 
 ## Features
 
