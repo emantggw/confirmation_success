@@ -44,11 +44,9 @@ dependencies:
 ```dart
  ConfirmationSuccess(
   reactColor: Colors.green,
-  maxBubbleRadius: 8,
   child: Text("VOILA!",
     style: TextStyle(
       fontSize: 25,
-      letterSpacing: 1,
       color: black,
       fontWeight: FontWeight.bold)))
 }))
